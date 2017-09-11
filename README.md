@@ -41,6 +41,11 @@ triggering other bots' commands. The Discord API also tells you if a user is a b
 [see the reference](https://discordapp.com/developers/docs/resources/user#user-object)).
 9. **Keep NSFW features locked to NSFW channels**
 All NSFW commands/features should only work in (Discord) NSFW-marked channels.
+10. **Use mentioning the bot to help new users.**. Allowing a mention as the prefix
+("@MyBot help") or adding a way to find the bot's prefix with only a mention ("@MyBot, what's your prefix?")
+will help users who are new to your bot in getting started. The alternative brute-forcing
+punctuation characters to find it, which will be difficult for bots following 2 and 3.
+Plus, a mention is the most unique prefix of all.
 
 If you have an idea for an addition or change to this document, please make a
 pull request and we can discuss it.
