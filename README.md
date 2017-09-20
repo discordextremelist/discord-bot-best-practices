@@ -46,8 +46,8 @@ All NSFW commands/features should only work in (Discord) NSFW-marked channels.
 or "@MyBot, what's your prefix?") will help users who are new to your bot in getting
 started. (Make sure that whatever the message is, it's easily found. A great way to do
 this is by including it in your bot's presence.) The alternative is brute-forcing punctuation
-characters to find it, which will be difficult for bots following 2 and 3. Plus, a mention 
-s the most unique prefix of all.
+characters to find it, which will be difficult for bots following 2 and 3. Plus, a mention
+is the most unique prefix of all.
 
 If you have an idea for an addition or change to this document, please make a
 pull request and we can discuss it.
