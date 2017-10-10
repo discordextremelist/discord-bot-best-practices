@@ -18,7 +18,7 @@ prefix of their choice.
 3. **Don't be greedy**. Restrict yourself to a small number of prefixes to
 reduce the risk of collision with others.
 4. **Don't overuse mentions**. If you reply directly to a command, don't use a
-mention, they can lead to bot reply loops. Mentions are fine if a long running
+mention, they can lead to bot reply loops. Mentions are fine if a long-running
 command is executed, but private messages are a good alternative.
 5. **Have an `info` command**. It should provide information about the bot
 such as what framework it is using and the used version, `help` commands and,
@@ -27,7 +27,7 @@ most importantly, who made it.
 not exist, then let it fail silently. Do not have it reply with something like
 "invalid command". Though if the command is correct, but arguments are wrong
 then it's okay to reply with "invalid args". If there is more than one bot in
-a server that share a prefix, this can result in very obnoxious usage.
+a server that shares a prefix, this can result in very obnoxious usage.
 If your bot's prefix is configurable, this rule can probably be safely disregarded.
 7. **Be respectful of Discord's API**. Bots that abuse and misuse the Discord
 API ruin things for everyone. Make sure to factor in rate-limiting and backoff
