@@ -36,7 +36,6 @@ not exist, then let it fail silently. Do not have it reply with something like
 "invalid command". Though if the command is correct, but arguments are wrong
 then it's okay to reply with "invalid args". If there is more than one bot in
 a server that shares a prefix, this can result in very obnoxious usage.
-If your bot's prefix is configurable, this rule can probably be safely disregarded.
 3. #### API and behaviour
     1. **Be respectful of Discord's API**  
     Bots that abuse and misuse the Discord
