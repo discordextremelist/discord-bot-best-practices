@@ -48,7 +48,7 @@ self-loops and potential security exploits. Using a zero width space such as `\u
 and `\u180E` in the beginning of each message also prevents your bot from
 triggering other bots' commands. The Discord API also tells you if a user is a bot
 (`bot` property on `User` objects -
-[see the reference](https://discordapp.com/developers/docs/resources/user#user-object)).
+[see the reference](https://discord.com/developers/docs/resources/user#user-object)).
     3. **Keep NSFW features locked to NSFW channels**  
     All NSFW commands/features should only work in (Discord) NSFW-marked channels.
     4. **Use mentioning the bot to help users.**  
