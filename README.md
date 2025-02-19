@@ -41,5 +41,20 @@ bot is restricted to private ones, this document likely doesn't apply to you.*
       Allowing a mention as the prefix ("@MyBot help") or adding a way to find the bot's prefix with only a mention ("@MyBot" or "@MyBot, what's your prefix?") will help users who are new to your bot in getting started (Make sure that whatever the message is, it's easily found. A great way to do this is by including it in your bot's presence).  
       The alternative is brute-forcing punctuation characters to find it, which will be difficult for bots following 2 and 3. Plus, a mention is the most unique prefix of all.
 
+4. #### Privacy Policy
+   1. **You must have a privacy policy for your bot**
+      Discord now expects bot owners to have a privacy policy for your bot, and so does some bot listing services such as Discord Extreme List, and is adapted from what a Discord Staff have generally outlined as required. Will the following cover every legal obligation you may or may not have as a software developer working with user information? \[We can't speak to this, contact a lawyer if you are concerned\]. Will this cover the basic expectations Discord and most bot lists have set out as a user of Discord's API? Yes.
+   2. **You must include the following information in your privacy policy**
+      1. What data do you collect, including but not limited to personally identifiable information (PII)?
+      2. Why do you need the data?
+      3. How do you use the data?
+      4. Other than Discord (the company) and the users of your bot on Discord (the platform), who do you share your collected data with, if anyone?
+      5. How can users contact you if they have concerns about your bot and/or the privacy policy?
+      6. If you store data, how can users request it, ask for it to be corrected, or have it removed?
+   3. **If you don't collect data, you still need a privacy policy**
+      If you don't collect any data from users, you still need to provide a privacy policy. This privacy policy can simply just say "We don't store any user information or data" and how users can contact you if they have any concerns about your bot and/or the privacy policy.
+   4. **Your privacy policy can be anywhere accessible (i.e., website, in a bot command, or on a GitHub Gist)**
+      As long as your privacy policy is easily accessible and meets all of the above criteria, you can host your privacy policy anywhere. For example, you could have it as a command on your Discord bot, on your bot website, on a GitHub Gist.
+
 If you have an idea for an addition or change to this document, please make a
 pull request and we can discuss it.
